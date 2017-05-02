@@ -13,16 +13,16 @@
 ## 4.调查设计(Where)与研究方法(How):
 	链家
 	数据采集方法 :Python爬虫
-	  ## main()入口函数
-	  ### lianjia1()合肥各区县各房型总数
-	  ### lianjia1()合肥各区县各房型总数-浏览器伪装
-	  ### connLinajia() 数据库连接
-	  ### insertLianjia() 文件写入数据库表
-	  ### truncate() 情况表
-	  ### makepie() 图标展示
+	   main()入口函数
+	   lianjia1()合肥各区县各房型总数
+	   lianjia1()合肥各区县各房型总数-浏览器伪装
+	   connLinajia() 数据库连接
+	   insertLianjia() 文件写入数据库表
+	   truncate() 情况表
+	   makepie() 图标展示
 
 
-	  ## 数据库表结构
+	   数据库表结构
 	  CREATE TABLE `lianjia_hefei` (
 	    `id` int(11) NOT NULL AUTO_INCREMENT,
 	    `area` varchar(30) DEFAULT NULL,
