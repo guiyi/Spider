@@ -167,7 +167,7 @@ def spider(area1,fangxing1,urls):
                                     unitPrice = item.select('.unitPrice')[0].text
                                     #print(totalPrice,unitPrice)
                                     #print(title+"\t"+xiaoqu+"\t"+fangxing+"\t"+mianji+"\t"+chaoxiang+"\t"+zhuangxiu+"\t"+floor+"\t"+guanzhu+"\t"+daikan+"\t"+fabu+"\t"+totalPrice+"\t"+unitPrice)
-                                    OutFile1.write(str(title)+"\t"+str(xiaoqu)+"\t"+str(fangxing)+"\t"+str(mianji)+"\t"+str(chaoxiang)+"\t"+str(zhuangxiu)+"\t"+str(floor)+"\t"+str(guanzhu)+"\t"+str(daikan)+"\t"+str(fabu)+"\t"+str(totalPrice)+"\t"+str(unitPrice)+str(key)+"\t"+str(key1)+"\t"+str(val)+"\t"+str(val1)+"\t"+"\n")
+                                    OutFile1.write(str(title)+"\t"+str(xiaoqu)+"\t"+str(fangxing)+"\t"+str(mianji)+"\t"+str(chaoxiang)+"\t"+str(zhuangxiu)+"\t"+str(floor)+"\t"+str(guanzhu)+"\t"+str(daikan)+"\t"+str(fabu)+"\t"+str(totalPrice)+"\t"+str(unitPrice)+"\t"+str(key)+"\t"+str(key1)+"\t"+str(val)+"\t"+str(val1)+"\t"+"\n")
             
 
     
@@ -224,10 +224,11 @@ def insertLianjia(fileName,flag):
             fabu = regexNum(line.split('\t')[9])
             totalPrice = regexNum(line.split('\t')[10])
             unitPrice = regexNum(line.split('\t')[11])
-            area = regexNum(line.split('\t')[12])
-            areaEN = regexNum(line.split('\t')[13])
-            fx = regexNum(line.split('\t')[14])
-            fxEN = regexNum(line.split('\t')[15])
+            areaEN = regexNum(line.split('\t')[12])
+            area = regexNum(line.split('\t')[13])
+            fxEN = regexNum(line.split('\t')[14])
+            fx = regexNum(line.split('\t')[15])
+            
 
 
 
@@ -383,7 +384,7 @@ if __name__ == '__main__':
     lianjiaA2()
     truncate(tableName='lianjia_hefei')
     truncate(tableName='lianjia_hefei_info')
-    insertLianjia("lianjia_hefei_1_"+DateTime+".txt",flag=2)
+    insertLianjia("lianjia_hefei_1_"+DateTime+".txt",flag=1)
     insertLianjia("lianjia_hefei_2_"+DateTime+".txt",flag=2)
     #makepie()
     #lianjia2()
