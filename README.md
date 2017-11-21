@@ -6,7 +6,7 @@
 ### pip install pymysql
 ### 相关网址：
 https://pip.pypa.io/en/latest/installing/#id7
-https://pip.pypa.io/en/latest/installing/#id7
+http://blog.csdn.net/yuhouji009/article/details/70856597?utm_source=itdadao&utm_medium=referral
 ## 5W2H
 ## 1.研究的目的(Why):
 	分析合肥二手房情况
