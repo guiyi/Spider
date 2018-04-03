@@ -61,4 +61,6 @@ R相关分析： https://github.com/guiyi/R/blob/master/mysql.R
 <img src="https://pic4.zhimg.com/v2-f60ffad0fb4cc8a398806bfbc8ab432b_b.png" alt="" style="max-width:100%;">
 <img src="https://pic1.zhimg.com/v2-15c561859b0e3b8db1d3085b1c213070_b.png" alt="" style="max-width:100%;">
 <img src="https://pic1.zhimg.com/v2-df593a933ac90282206f0cbe442a1f34_r.png" alt="" style="max-width:100%;">
+
+<img src="https://picabstract-preview-ftn.weiyun.com:8443/ftn_pic_abs_v2/0d000082ca51f756d8b1d086120f1bf7ca4bf285b3e93cd6b83f34b3eecbda0a1fd0d46aa40374bce96f64b41d29bb1b?pictype=scale&from=30113&version=2.0.0.2&uin=274340311&fname=1YZ%240P4TGC8QC6V8WMM481E.png&size=1024" alt="" style="max-width:100%;">
 :) Have Fun ~
